@@ -1,1 +1,1 @@
- you are in a room with three doors 
+ Which door will you go through? 
