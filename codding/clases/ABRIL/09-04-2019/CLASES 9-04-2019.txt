@@ -1,0 +1,11 @@
+clase 09/04
+
+formularios: lugar donde recibimos datos de los usuarios, nos sirve conseguir informacion, textos, imagen cuales quiera sea el tipo de archivo.
+
+primer paso para hacer formulario " dibujalo"
+
+partes necesarios: 
+
+EL FOR SIEMPRE TIENE QUE SE IGUAL AL ID
+
+cuando usemos tag radio, las 2 opciones deben tener el mismo name 

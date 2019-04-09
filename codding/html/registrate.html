@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title> formularios </title>
+    <meta charset="utf-8">
+</head>
+<body>
+        <header>
+                <nav>
+                        <span><a href="./inicio.html">Inicio</a></span>
+                        <span><a href="./informacion_personal.html">Informacion Personal</a></span>
+                        <span><a href="./Estudios_realizados.html">Estudios Realizados</a> </span>
+                        <span><a href="./experiencia_laboral.html">Experiencia laboral</a></span>
+                        <span><a href="./registrate.html">Registrate</a></span>
+                        
+                </nav>
+               
+         </header>
+</head>
+<section>
+        <h1>Registrate</h1>
+        <form method="POST" action="">
+            <div>
+             <label for="name">Nombre:</label>
+             <input type="text" id="name" name="user_name" placeholder="Nombre" value="">
+            </div>
+            <div>
+                 <label for="apellido">Apellido:</label>
+             <input type="text" id="apellido" name="user_name" placeholder="Apellido" value="">
+            </div>
+            <div>
+                <strong>Fecha de nacimiento</strong>
+                
+            </div>
+            <div>
+                 <label for="dia">Dia:</label>
+                 <input type="number" id="dia" name="user_name" placeholder="01" value="">
+                 <label for="mes">Mes:</label>
+                 <select id="mes" name="user_name">
+                   <option selected>Enero</option>
+                   <option>Febrero</option>
+                   <option>Marzo</option>
+                   <option>Abril</option>
+                   <option>Mayo</option>
+                   <option>Junio</option>
+                   <option>Julio</option>
+                   <option>Agosto</option>
+                   <option>Septiembre</option>
+                   <option>Octubre</option>
+                   <option>Noviembre</option>
+                   <option>Diciembre</option>
+         
+                 </select>
+                 <label for="año">Año:</label>
+                 <input type="number" id="año" name="user_name" placeholder="2019" value="">
+            </div>
+
+
+
+
+     </section>
+     <fieldset>
+             <legend>Indique su sexo</legend>
+             <div>
+               <input type="radio" id="sexo" name="drone" value="sexo" checked>
+               <label for="huey">hombre</label>
+               <input type="radio" id="sexo2" name="drone" value="sexo" checked>
+               <label for="sexo2">mujer</label>
+             </div>
+             <div>
+                     <label for="story"> Comentarios:</label>
+                     <textarea id="story" name="story" placeholder="Comentario">
+                       
+                     </textarea>
+             
+            </div>
+            <div>
+                 <button type="submit">Enviar</button>
+          </div>
+
+
+
+     </fieldset>
