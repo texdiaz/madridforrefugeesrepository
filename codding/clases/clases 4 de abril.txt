@@ -1,0 +1,55 @@
+DOCTYPE 
+HTML
+HEAD( INFORMACION PARA EL NAVEGADOR )
+BODY ( AQUI ESTA TODO EL CUERPO DE LA PAGINA, HEADER, SECTION Y FOOTER) ESTE ES EL CUERPO DE LA PAGINA.
+ARTICULO SECTION, 
+
+DOCTYPE INDICA AL NAVEGADOR QUE ESTA LEYENDO HTML YA QUE PUEDE HABER OTROS LENGUAJES.
+<html lang=""> indicas el idioma de tu pagina ( ejemplo es, ing,)
+
+
+<p>&nbsp</p>
+
+&nbsp : espacio dentro de un parrafo 
+
+
+blockquoations.
+ se utiliza para realizar comentarios y citas
+
+<span> es un contenedor para contener texto organiza si  line va a ocupar lo que ocupe el texto, ( diferenciar con p  ) p organiza en bloque todo en linea
+ejemplo
+
+<span> ( solo ocupan el espacio que ocupa la palabra )
+hola
+hola
+</span>
+
+<p> hola hola hola hola </p>
+ 
+href : hiper referencia
+
+gi 
+<div> un contenedor generico que semanticamente no significa nada.
+
+rutas relativas ( son aquellas que dependen de la direccion en que me encuentro acactualmente )
+rutas absolutas ( son aquellas que indican una direccion especifica)
+../ = me lleva al inmediatamente superior. ../ tantas veces como sea necesario para accesar a la carpeta donde se encuentra el archivo.
+./  = es el directorio donde me encuentro.
+
+width : buscar este atributo.
+<div style="with: 20%;
+float: buscar este atributo
+
+buscar  developer.mozilla.org/es/docs
+
+<hr/>
+
+traer para el martes, el mismo curriculum pero con pestañas, y accesos directos a otras paginas hechas por mi .
+
+
+
+
+
+
+
+
