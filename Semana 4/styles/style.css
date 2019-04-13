@@ -1,0 +1,28 @@
+header{
+    -webkit-text-fill-color:blue;
+    font-size: 30px;
+}
+
+body{
+    -webkit-text-fill-color: orange;
+    font-size: 22px ;
+    background-color: gray;
+    }
+.imagen{
+    border-image: 5px;
+
+}
+
+footer{
+    -webkit-text-fill-color:black;
+    font-size: 18px;
+
+}
+
+.telefono{
+    -webkit-text-fill-color: blue;
+}
+
+.lista{
+    -webkit-text-fill-color:black;
+}

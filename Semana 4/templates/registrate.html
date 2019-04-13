@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title> REGISTRATE </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+</head>
+<body>
+        <header>
+                <nav class="menu">
+                        <span><a href="./inicio.html">Inicio</a></span>
+                        <span><a href="./informacion_personal.html">Informacion Personal</a></span>
+                        <span><a href="./Estudios_realizados.html">Estudios Realizados</a> </span>
+                        <span><a href="./experiencia_laboral.html">Experiencia laboral</a></span>
+                        <span><a href="./registrate.html">Registrate</a></span>
+                        
+                </nav>
+               
+         </header>
+         <main>
+
+<section>
+        <h1>Registrate</h1>
+        <form method="POST" action="">
+            <div>
+             <label for="name">Nombre:</label>
+             <input type="text" id="name" name="user_name" placeholder="Nombre" value="">
+            </div>
+            <div>
+                 <label for="apellido">Apellido:</label>
+             <input type="text" id="apellido" name="user_name" placeholder="Apellido" value="">
+            </div>
+            <div>
+                <label for="mail">Correo electronico</label>
+                <input type="text" id="mail" name="user_name" placeholder="Correo electronico" value="">
+            </div>
+            <div>
+              <label for="usuario">Nombre Usuario</label>
+              <input type="text" id="usuario" name="user_name" placeholder="Nombre Usuario" value="">
+            </div>
+            <div>
+                <label for="passusuario">Contraseña</label>
+                <input type="text" id="passusuario" name="user_name" placeholder="Contraseña" value="">
+            </div>
+            <div>
+              <label for="repite">Repite contraseña</label>
+              <input type="text" id="repite" name="user_name" placeholder="Contraseña" value="">
+            </div>
+            <div>
+                <strong>Fecha de nacimiento</strong>
+                
+            </div>
+            <div>
+                 <label for="dia">Dia:</label>
+                 <input type="number" id="dia" name="user_name" placeholder="01" value="">
+                 <label for="mes">Mes:</label>
+                 <select id="mes" name="user_name">
+                   <option selected>Enero</option>
+                   <option>Febrero</option>
+                   <option>Marzo</option>
+                   <option>Abril</option>
+                   <option>Mayo</option>
+                   <option>Junio</option>
+                   <option>Julio</option>
+                   <option>Agosto</option>
+                   <option>Septiembre</option>
+                   <option>Octubre</option>
+                   <option>Noviembre</option>
+                   <option>Diciembre</option>
+         
+                 </select>
+                 <label for="año">Año:</label>
+                 <input type="number" id="año" name="user_name" placeholder="2019" value="">
+            </div>
+            
+     </section>
+
+              <div>
+              <h2>fecha de hoy</h2>
+              <label for="diahoy"> </label>
+              <input type="date" name="diahoy" id="diahoy">
+            </div>
+          
+            
+           <div>
+             <label for="sintesis">sube tu curriculum</label>
+             <input type="file" name="sintesis" id="sintesis" > </input>
+             <input type="reset" name="borrar" id="borrar"> </input>
+           </div>
+
+
+     <fieldset>
+             <legend>Indique su sexo</legend>
+             <div>
+               <input type="radio" id="sexo" name="drone" value="sexo" checked>
+               <label for="huey">hombre</label>
+               <input type="radio" id="sexo2" name="drone" value="sexo" checked>
+               <label for="sexo2">mujer</label>
+             </div>
+             <div>
+                     <label for="story"> Comentarios:</label>
+                     <textarea id="story" name="story" placeholder="Comentario">
+                       
+                     </textarea>
+             
+            </div>
+            <fieldset>
+                    <legend>Cuales son tus intereses</legend>
+                    <div>
+                      <input type="checkbox" id="deporte" name="interest" value="coding" >
+                      <label for="deporte">Tecnologia</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="music" name="interest" value="music" checked>
+                      <label for="music">Deportes</label>
+                    <div><input type="checkbox" id="ver tv " name="interest" value="ver tv" >
+                      <label for="ver tv">Vida sana</label></div>
+                    <div> <input type="checkbox" id="hacer ejercicio " name="interest" value="hacer ejercicio" >
+                      <label for="hacer ejercicio">Electronica</label>
+                    </div>
+                    <div> <input type="checkbox" id="otro" name="interest" value="hacer ejercicio" >
+                        <label for="otro">Tv y ocio</label>
+                      </div>
+                    </div>
+                  </fieldset>
+                  <fieldset>
+            <div>
+                 <button type="submit">Enviar</button>
+          </div>
+          </fieldset>
+          
+
+
+
+        </main>
+  </body>
+</html>
