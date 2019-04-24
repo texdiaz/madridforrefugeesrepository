@@ -22,9 +22,9 @@ body {
   .pokedex__front-image {
     animation-duration: 2s;
     animation-name: small-logo-in;
-    bottom: 15px;
+    bottom: 25px;
     position: absolute;
-    width: 15%;
+    width: 25%;
     z-index: 1;
   }
   .pokedex__pokemon-list {
