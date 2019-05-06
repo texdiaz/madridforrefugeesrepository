@@ -1,0 +1,66 @@
+body{
+    background: white;
+    color:black;
+}
+
+.header{
+    display: inline;
+    flex-direction: row;
+    font-size: 30px;
+    color: aqua;
+    }
+
+.main-nav{
+display: flex;
+justify-content: space-between;
+}
+
+.imagen{
+    position: relative;
+    top: 70px;
+    left: 350px;
+}
+
+.titulo{
+    position: relative;
+    bottom: 185px;
+    left: 600px;
+    font-size: 60px;
+}
+
+
+.black{
+    position: relative;
+    color: blue;
+    left: 40px;
+    
+}
+
+.black2{
+    position: relative;
+    left: 115px;
+}
+
+.blue{
+    position: relative;
+    left: 40px;
+    font-size: 70px;
+    color: blue;
+}
+
+.texto{
+    position: relative;
+    right: 570px;
+    font-size: 39px;
+
+}
+
+.footer{
+    position: relative;
+    left: 900px;
+    font-size: 30px;
+}
+
+.datos{
+    font-size: 30px;
+}

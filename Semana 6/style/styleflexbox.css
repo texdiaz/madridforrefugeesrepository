@@ -1,0 +1,46 @@
+body{
+    background-image: url(../resources/container_bg.png);
+    margin: 0 300px;
+}
+
+.logo_container{
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.pokedex_front-image{
+    animation-duration: 1s;
+    animation-name: big-logo-in;
+    z-index: 0;
+}
+
+.pokedex_logo{
+    animation-duration: 2s;
+    animation-name: small-logo-in;
+    bottom: 25px;
+    position: absolute;
+    width: 25%;
+    z-index: 1;
+}
+
+.container {
+  
+  justify-items: flex-start;
+  grid-template-columns: repeat(4, 24%);
+  //width: 70%; 
+  //height: 500px;
+  //margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+ //flex-wrap: wrap;
+ justify-content: flex-start;
+  
+}
+
+.hijo {
+
+
+}
