@@ -1,0 +1,55 @@
+tipos de variables
+el valor de la variable es variable, puede variar.
+let  five = 5; 
+five= 6;
+console.log(five);
+
+
+const FIVE = 5
+five  = 6; // type error assignment to constanst
+
+el valor de la variable es fijo y no puede variar
+
+condicionales 
+
+const isKing = false;
+
+if (isKing === true) {
+console.log(" !viva el rey! ")
+} else {
+console.log (" a la horca con el ")
+}
+
+const isKing
+
+if(isKing === "juancar"){
+console.log(" este es el rey anterior");
+} else if (isKing === "felipe"){
+console.log(" este es el rey de ahora");
+} else {
+console.log("viva la republica");
+}
+
+comparadores 
+
+if(isKing && kingAge > 46){
+console.log("el rey viejo");
+} else {
+console.log("el rey de ahora");
+}
+
+&& means and
+|| means or
+
+
+arrays ( son listados) ejemplos: lista de productso de la compra , yo tengo que pasar los productos por la caja ,
+
+conjunto de datos pueden estar contenidos 
+
+
+const productlist = ["toilet paper", "scissors","tomatos","towels","shoes"]
+console.log(productsList[0]);
+
+looping arrays
+
+
