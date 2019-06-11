@@ -52,4 +52,9 @@ console.log(productsList[0]);
 
 looping arrays
 
+const productList = [ "toilet paper", "scissors","tomatos", "towels","shoes"];
+productList.forEach (( product, index) => {
+console.log(index,product);
+});
+
 

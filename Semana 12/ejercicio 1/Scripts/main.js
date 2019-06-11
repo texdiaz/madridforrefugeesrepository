@@ -21,6 +21,11 @@ var pregunta10 = " cuantos años de edad tienes?"
 var edad5 =prompt(pregunta10);
 
 
+
+
+
+
+
 alert("el alumno "+ nombre1 + " tiene " + edad1 + " años" );
 
 alert("el alumno "+ nombre2 + " tiene " + edad2 + " años" );
