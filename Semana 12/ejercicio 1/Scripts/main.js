@@ -1,24 +1,27 @@
 
-var pregunta = " cual es tu nombre?"
-var nombre1 =prompt(pregunta);
-var pregunta2 = " cuantos años de edad tienes?"
-var edad1 =prompt(pregunta2);
-var pregunta3 = " cual es tu nombre?"
-var nombre2 =prompt(pregunta3);
-var pregunta4 = " cuantos años de edad tienes?"
-var edad2 =prompt(pregunta4);
-var pregunta5 = " cual es tu nombre?"
-var nombre3 =prompt(pregunta5);
-var pregunta6 = " cuantos años de edad tienes?"
-var edad3 =prompt(pregunta6);
-var pregunta7 = " cual es tu nombre?"
-var nombre4 =prompt(pregunta7);
-var pregunta8 = " cuantos años de edad tienes?"
-var edad4 =prompt(pregunta8);
-var pregunta9 = " cual es tu nombre?"
-var nombre5 =prompt(pregunta9);
-var pregunta10 = " cuantos años de edad tienes?"
-var edad5 =prompt(pregunta10);
+
+
+
+const pregunta = " cual es tu nombre?"
+const nombre1 =prompt(pregunta);
+const pregunta2 = " cuantos años de edad tienes?"
+const edad1 =prompt(pregunta2);
+const pregunta3 = " cual es tu nombre?"
+const nombre2 =prompt(pregunta3);
+const pregunta4 = " cuantos años de edad tienes?"
+const edad2 =prompt(pregunta4);
+const pregunta5 = " cual es tu nombre?"
+const nombre3 =prompt(pregunta5);
+const pregunta6 = " cuantos años de edad tienes?"
+const edad3 =prompt(pregunta6);
+const pregunta7 = " cual es tu nombre?"
+const nombre4 =prompt(pregunta7);
+const pregunta8 = " cuantos años de edad tienes?"
+const edad4 =prompt(pregunta8);
+const pregunta9 = " cual es tu nombre?"
+const nombre5 =prompt(pregunta9);
+const pregunta10 = " cuantos años de edad tienes?"
+const edad5 =prompt(pregunta10);
 
 
 

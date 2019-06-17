@@ -1,4 +1,4 @@
-/*const kingGrandson = 'Felipe Juan Froilán de Todos los Santos de Marichalar y Borbón'; //String
+const kingGrandson = 'Felipe Juan Froilán de Todos los Santos de Marichalar y Borbón'; //String
 const kingGrandsonAge = 20; //Number
 const hasTitle = true; //Boolean
 const titleName = 'Caballero Divisero Hijodalgo del Ilustre Solar de Tejada'; //String
@@ -14,7 +14,7 @@ if ( respuesta === "felipe"){
     alert( "viva el rey!!!")
 } else{
     alert(" a la horca por traidor")
-}*/
+}
 
 
 
