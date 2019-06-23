@@ -1,0 +1,13 @@
+fade out 
+fade in
+
+coass list add . clase agrega una clase
+clas list.remove.clase quita la clase 
+
+una variable para cada uno de los elementos 
+
+var bandera 1
+var bandera 2
+
+queryselector " selececciona por cualquier tipo, clase, atributos.
+

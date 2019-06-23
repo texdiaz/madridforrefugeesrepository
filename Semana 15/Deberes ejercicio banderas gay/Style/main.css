@@ -1,0 +1,116 @@
+.container{
+  width: 100%;
+  height: auto;
+  
+
+}
+
+body{
+  
+
+}
+
+  
+.box{
+  width: 90%;
+  height: 100px;
+  background: #e70000;
+  margin: 20px;
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+.box1{
+  width: 90%;
+  height: 100px;
+  background: #ff8c00;
+  margin: 20px;
+  box-sizing: border-box;
+  font-size: 50px;
+
+}
+
+.box2{
+  width: 90%;
+  height: 100px;
+  background: #ffef00;
+  margin: 20px;
+  box-sizing: border-box;
+  font-size: 50px;
+
+}
+
+.box3{
+  width: 90%;
+  height: 100px;
+  background: #00811f;
+  margin: 20px;
+  box-sizing: border-box;
+  font-size: 50px;
+
+}
+
+.box4{
+  width: 90%;
+  height: 100px;
+  background: #0044ff;
+  margin: 20px;
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+.box5{
+  width: 90%;
+  height: 100px;
+  background: #760089;
+  margin: 20px;
+  box-sizing: border-box;
+  font-size: 50px;
+
+}
+
+#fade-in{
+  animation: fadeIn 4s;
+  
+}
+
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut{
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+  }
+}
+
+#fade-in2{
+  animation: fadeIn 6s;
+  
+}
+#fade-in3{
+  animation: fadeIn 8s;
+  
+}
+#fade-in4{
+  animation: fadeIn 10s;
+  
+}
+#fade-in5{
+  animation: fadeIn 12s;
+  
+}
+#fade-in6{
+  animation: fadeIn 14s;
+  
+}

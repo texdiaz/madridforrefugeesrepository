@@ -16,23 +16,26 @@ Primera iteración
 let num=prompt(" introduce un numero porfavor")
 
 
-if (num % 3 === 0 && num % 5 === 0){
+if (num % 3 === 0 && num % 5 === 0) {
     console.log("FizzBuzz");
     alert (" fizzbuzz");
-}
- else if (num % 5 === 0) {
+} else if (num % 5 === 0) {
     console.log ("Buzz");
     alert (" buzz");
 } else if (num % 3 === 0) {
     console.log ("Fizz");
     alert ( "fizz");
-} else {
+} else if ( num % 2 === 0) {
     console.log(num);
     alert (" el numero es par")
+} else {
+
 }
 
-for (i=0; i<=100; i++){
-    if (i % 3 === 0 && i % 5 === 0){
+
+
+for ( let i=1; i<=100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
     } else if (i % 5 === 0) {
         console.log ("Buzz");
@@ -43,6 +46,7 @@ for (i=0; i<=100; i++){
         console.log(i);
     }  
 }
+
 
 
 
